@@ -15,7 +15,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    background-color: blue;
+    background-color: orange;
     height: 100%;
     padding: 0.5em 1em;
     border-top-right-radius: 5px;
@@ -29,12 +29,12 @@
     border-radius: 5px;
     width: 100%;
 }
-.row:nth-child(2) .col:nth-child(1) {
+.row:nth-child(3) .col:nth-child(1) {
     flex-direction: column;
 }
 
 @media screen and (max-width: 540px) {
-    .row:nth-child(2) {
+    .row:nth-child(3) {
         flex-direction: column;
     }
     label {
