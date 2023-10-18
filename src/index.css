@@ -10,6 +10,10 @@
 *::after, *::before {
     box-sizing: border-box;
 }
+*::selection {
+    background-color: orange;
+    color: #fff9ca;
+}
 body {
     background-color: #000;
 }
@@ -27,12 +31,15 @@ input[type=text] {
     color: orange;
     background-color: #fff9ca;
 }
-
 label {
     user-select: none;
 }
 input[type=checkbox] {
     margin-right: 5px;
+    accent-color: orange;
+}
+input[type=range] {
+    accent-color: orange;
 }
 .container {
     max-width: 700px;
